@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 96%;
+    max-width: 1200px;
+    padding: 0 2%;
+}
+
+header {
+    height: 12.5vmin;
+    background: rgb(63, 167, 229);
+}
