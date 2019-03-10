@@ -6,22 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BLU_LandingPage</title>
     <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:500" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <div class="wrapper">
-
+        <div id="header-wrapper" class="wrapper">
+            <img id="header-logo" src="./Links/SamanthaHall_Logo.png" alt="Logo reads 'Samantha Hall, Democrat for Senate'">
+            <nav>
+                <ul id="nav-list">
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-facebook"></i></li>
+                    <li><button id="donate-btn"><i class="fas fa-money-bill-wave"></i>Donate</button></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
-        <div>
-            <img src="" alt="">
+        <div id="main-wrapper" class="wrapper">
+            <img id="headshot" src="./Links/headshot_noBG.png" alt="Samantha Hall pictured smiling with arms crossed.">
             <div>
                 <h1>The <span>Right Choice</span><br>
                 for Texas</h1>
+                <form action="">
+                    <h2>Join Samantha!</h2>
+                    <p>Sign up to receive the latest campaign updates.</p>
+                    <input type="email" placeholder="Email">
+                    <input id="zip"     type="text" placeholder="ZIP">
+                    <button id="join-btn">Join <i class="fas fa-chevron-right"></i></button>
+                </form>
             </div>
         </div>
     </main>
+    <footer>
+        <div class="wrapper">
+            <div id="footer-wrapper">
+                <img id="footer-logo" src="./Links/SamanthaHall_Logo_reversed.png" alt="Logo reads 'Samantha Hall, Democrat for Senate'">
+                <p>555 Main Street, Austin, TX 98765</p>
+                <p><a id="privacy-policy-link" href="#">Privacy Policy</a> | ©2016 Samantha Hall for Congress. All Rights Reserved.</p>
+                <p id="white-border">Paid for by Samantha Hall for Congress.</p>
+            </div>
+        </div>
+    </footer>
     <script src="./index.js"></script>
 </body>
 </html>
